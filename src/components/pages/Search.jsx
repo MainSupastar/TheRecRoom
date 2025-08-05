@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react'
 import './Search.css'
 import Select from 'react-select'
@@ -44,3 +45,24 @@ export function Search() {
  /* The function search, which holds the headers, options from options
  the style of the bar from searchStyle, and the display of what the user picked
  */
+=======
+import './Search.css'
+
+export function Search () {
+    return (
+        <div>
+            <div className="containerSearch">
+                <div className="headerSearch">
+                    <div className="textSearch">Search For Your School</div>
+                </div>
+                <div classname="inputsSearch">
+                    <div className="inputSearch">
+                        <input type="search" placeholder="Enter School Name"/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    )
+}
+>>>>>>> 824da960c6dfef33ecde3de156f0da609e9e1437
