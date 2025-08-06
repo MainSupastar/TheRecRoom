@@ -1,15 +1,19 @@
 
+/* Styles the container that everything sits in.
+*/
 .containerLogin {
     display: flex;
     flex-direction:column;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 75px;
     background: white;
     padding-bottom:30px;
     max-width: 600px;
     border-radius: 8px;
 }
 
+/* To style the header for the Login and Signup pages
+*/
 .headerLogin {
     display:flex;
     flex-direction: column;
@@ -19,15 +23,19 @@
     margin-top: 30px;
 }
 
+/* This edits the header of 'Login' or 'Signup'
+*/
 .textLogin {
     color: #163bc1;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
+/*This edits the underline that is beneath 'Login' or 'Signup'
+*/
 .underlineLogin{
-    width: 61px;
-    height:6px;
+    width: 125px;
+    height: 6px;
     background: #163bc1;
     border-radius: 9px;
 }
@@ -39,20 +47,21 @@
     gap: 25px;
 }
 
+/* controls the container around the input.
+*/
 .input {
     display:flex;
     align-items: center;
     margin:auto;
     width: 480px;
     height: 80px;
-    background: #eaeaee;
-    border-radius: 6px;
+    background: white;
+    border: 2px solid #eaeaea;
+    border-radius: 9px;
 }
 
-.input img {
-    margin: 0px 30px;
-}
-
+/* This controls the placeholders for the inputs
+*/
 .input input{
     height: 50px;
     width: 400px;
@@ -61,26 +70,36 @@
     outline: none;
     color: #797979;
     font-size: 19px;
+    padding-left: 15px
 }
 
+/* controls the container of the forgot-password
+*/
 .forgot-password {
     padding-left: 62px;
-    margin-top: 27px;
+    margin-top: 20px;
     color: #797979;
-    font-size: 18px;
+    font-size: 15px;
 }
 
+/* edits the 'click here' part of the forgot password
+*/
 .forgot-password span {
     color: #163bc1;
     cursor: pointer;
 }
 
+/* The container for the buttons Login and Signup 
+to switch pages
+*/
 .submit-container {
     display:flex;
     gap: 30px;
-    margin: 60px auto;
+    margin: 40px auto;
 }
 
+/* The styling for the buttons 
+*/
 .submit {
     display:flex;
     justify-content: center;
@@ -89,13 +108,24 @@
     height: 59px;
     color: #fff;
     background: #163bc1;
-    border-radius: 50px;
+    border-radius: 8px;
     font-size: 19px;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
 }
 
+/*For when the buttons are not selected.
+*/
 .gray {
     background: #eaeaea;
     color: #676767;
+}
+
+/* Styling for the 'Remember Me' checkbox
+*/ 
+.rememberMe {
+    padding-left: 60px;
+    padding-top: 15px;
+    color:#797979;
+    font-size: 16px;
 }

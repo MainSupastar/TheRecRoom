@@ -1,13 +1,12 @@
-:root {
-  font-family: 'Times New Roman', serif;
-  line-height: 1.5;
-  font-weight: 400;
-}
+:root { font-family: 'Inter', sans-serif; }
+       @supports (font-variation-settings: normal) {
+         :root { font-family: 'Inter var', sans-serif; }
+       }
 
   body {
     margin: 0;
     min-width: 320px;   /* keep this for mobile */
     min-height: 100vh;
-    background: linear-gradient(to bottom, #163bc1, #19a912);
+    background: #eaeaea;
   }
 
